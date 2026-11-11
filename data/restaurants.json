@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Mangiare Di Capri",
+    "cuisine": "Italian",
+    "address": "Alameda dos Anjos, 452 - Jardins, São Paulo - SP",
+    "rating": 4.8
+  },
+  {
+    "name": "Sabor & Brasa",
+    "cuisine": "Steakhouse",
+    "address": "Avenida Central, 1020 - Centro, Curitiba - PR",
+    "rating": 4.5
+  },
+  {
+    "name": "Sakura Sushi",
+    "cuisine": "Japanese",
+    "address": "Rua das Flores, 88 - Batel, Belo Horizonte - MG",
+    "rating": 4.7
+  }
+]
