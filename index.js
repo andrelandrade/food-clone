@@ -1,8 +1,8 @@
 const fs = require('fs')
 
 fs.readFile('data/restaurants.json', 'utf-8', (err, data) => {
-    console.log('async fileRead')
-    console.log(data)
+  console.log('async fileRead')
+  console.log(data)
 })
 
 console.log('sync fileRead')
