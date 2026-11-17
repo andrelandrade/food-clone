@@ -1,7 +1,9 @@
 const http = require('http')
-const fs = require('fs')
+const readRestaurants = require('./modules/readRestaurants')
 
-const restaurants = JSON.parse(fs.readFileSync('data/restaurants.json', 'utf8'))
+require('dotenv').config()
+
+const restaurants = readRestaurants()
 
 const server = http.createServer((req, res) => {
     res.setHeader('Content-Type', 'application/json')
@@ -16,4 +18,4 @@ const server = http.createServer((req, res) => {
     } 
 })
 
-server.listen(3000)
+server.listen(process.env.PORT)
